@@ -1,0 +1,24 @@
+.btn-wrapper{
+position: relative;
+margin-bottom: 80px;
+}
+
+.btn-list{    
+position: absolute;
+top:10px;
+right: 10px;
+bottom: 4px;
+}
+.cell-container{
+
+}
+.cell-container-row{
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+}
+.cells{
+    border: 1 px solid rgb(55, 26, 26);
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+}
